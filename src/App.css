@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  list-style-type: none;
+  padding: 0;
+  gap: 10px; 
+}
+
+li {
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  border: 1px solid #e0e0e0; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  background-color: #fff; 
+}
+
+li img {
+  max-height: 150px; 
+  max-width: 100%; 
+}
